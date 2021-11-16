@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
 int anni;
-printf("FORSE...(NUMERO PARAMETRI: %D) %S\N", argc, argv[0]);
+printf("FORSE...(NUMERO PARAMETRI: %D) %s\n", argc, argv[0]);
 if (argc<1) printf("primo argomento utente: %s\n", argv[1]);
 if(argc<2)  {
 anni = atoi(argv[2]);
